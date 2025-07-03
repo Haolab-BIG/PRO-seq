@@ -17,7 +17,7 @@ We will proceed by structuring our workflow according to (ii).
 Here stands an throughout file structure of PRO-seq data analysis.
 
 - *You can decide what your structure looks like, which makes it more efficient to work.*
-```bash
+```
 PRO-seq 
 ├─ 1.raw_data 
 │    └─ QC 
