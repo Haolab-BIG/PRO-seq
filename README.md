@@ -26,7 +26,7 @@ PRO-seq
 ├─ 4.bam
 |	 ├─ uniq_bam
 |	 ├─ fail_qc_dups_bam
-│    └─ noMT_bam
+|    └─ noMT_bam
 ├─ 5.bw
 │    ├─ plus_bw
 │    └─ minus_bw
