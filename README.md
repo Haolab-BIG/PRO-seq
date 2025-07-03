@@ -6,7 +6,7 @@ Any questions or trouble u have met during this procudure please conntact me, AK
 ### i. Workflow ###
 Here stands an throughout workflow of PRO-seq data analysis.
 
-![image](https://github.com/jieniqianqian/PRO-seq/tree/main/Figure/PRO_seq.drawio.png)
+![image](Figure/PRO_seq.drawio.png)
 
 As illustrated in the figure,
 (i) yellow circles represent the steps where commands need to be entered;
