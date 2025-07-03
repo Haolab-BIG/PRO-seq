@@ -24,8 +24,8 @@ PRO-seq
 ├─ 2.clean_data
 ├─ 3.chr
 ├─ 4.bam
-|	 ├─ uniq_bam
-|	 ├─ fail_qc_dups_bam
+|    ├─ uniq_bam
+|    ├─ fail_qc_dups_bam
 |    └─ noMT_bam
 ├─ 5.bw
 │    ├─ plus_bw
