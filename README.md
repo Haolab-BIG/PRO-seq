@@ -6,7 +6,7 @@ Any questions or trouble u have met during this procudure please conntact me, AK
 ### i. Workflow ###
 Here stands an throughout workflow of PRO-seq data analysis.
 
-![image](Figure/PRO_seq.drawio.png)
+![](D:\RLK_database\project\数据来源\毕业\博士后\ESCC-Proseq\ChRO-seq\PRO-seq.drawio.png)
 
 As illustrated in the figure,
 (i) yellow circles represent the steps where commands need to be entered;
@@ -24,8 +24,8 @@ PRO-seq
 ├─ 2.clean_data
 ├─ 3.chr
 ├─ 4.bam
-|	 ├─ uniq_bam
-|	 ├─ fail_qc_dups_bam
+|    ├─ uniq_bam
+|    ├─ fail_qc_dups_bam
 │    └─ noMT_bam
 ├─ 5.bw
 │    ├─ plus_bw
