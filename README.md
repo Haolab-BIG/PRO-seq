@@ -80,7 +80,7 @@ seqtk seq \
 
 sed -e 's|\\:[^:]*\\([[:space:]].*\\)|\\1 |g' PRO-seq/2.clean_data/1.temp.fq  > PRO-seq/2.clean_data/1.clean.fq
 ```
-### iii. Mapping Clean Data to rDNA first to eliminating rRNA ###
+### iii. Mapping Clean Data to rDNA first to eliminate rRNA ###
 Align the cleaned data obtained in the previous step to the reference rDNA. After eliminating the abundant rRNA,the resulting data will be prepared for further analysis.
 
 ```bash
