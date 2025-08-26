@@ -376,3 +376,10 @@ standard:main peak 1-1.8(0 <Log10 main peak < 0.26).
 
 standard:main peak 25-50 bp downstream of the TSS.
 
+### Singularity ###
+
+the singularity image docker_PRO_seq.tar is provided now. After decompression, you can run the above process. If you want to run fastp, here is a example:
+
+![](D:\RLK_database\project\数据来源\毕业\博士后\ESCC-Proseq\ChRO-seq\PRO-seq\PRO-seq\figure\singularity测试例子.png)
+
+Here, **/home/qian_l/PRO_seq** represents data path, and the following commands are the commands in the above process.
