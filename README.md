@@ -7,7 +7,7 @@ Any questions or trouble u have met during this procudure please conntact me, AK
 Here stands an throughout workflow of PRO-seq data analysis.
 
 ![](https://github.com/Haolab-BIG/PRO-seq/tree/main/Figure/PRO-seq.drawio.png)
-
+=======
 As illustrated in the figure,
 (i) yellow circles represent the steps where commands need to be entered;
 (ii) pink dashed rectangular boxes represent the output results after processing at each step.
@@ -381,5 +381,5 @@ standard:main peak 25-50 bp downstream of the TSS.
 the singularity image docker_PRO_seq.tar is provided now. After decompression, you can run the above process. If you want to run fastp, here is a example:
 
 ![](https://github.com/Haolab-BIG/PRO-seq/tree/main/Figure/singularity测试例子.png)
-
+=======
 Here, **/home/qian_l/PRO_seq** represents data path, and the following commands are the commands in the above process.
