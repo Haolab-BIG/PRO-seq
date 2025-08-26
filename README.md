@@ -6,7 +6,7 @@ Any questions or trouble u have met during this procudure please conntact me, AK
 ### i. Workflow ###
 Here stands an throughout workflow of PRO-seq data analysis.
 
-![image](Figure/PRO_seq.drawio.png)
+![](https://github.com/Haolab-BIG/PRO-seq/tree/main/Figure/PRO-seq.drawio.png)
 
 As illustrated in the figure,
 (i) yellow circles represent the steps where commands need to be entered;
@@ -26,7 +26,7 @@ PRO-seq
 ├─ 4.bam
 |    ├─ uniq_bam
 |    ├─ fail_qc_dups_bam
-|    └─ noMT_bam
+│    └─ noMT_bam
 ├─ 5.bw
 │    ├─ plus_bw
 │    └─ minus_bw
@@ -34,9 +34,9 @@ PRO-seq
 |    ├─ pause_index
 |    └─ mRNA_contamination
 └─ 7.stat
-     ├─ pause_index
-     ├─ mRNA_contamination
-     └─ TSS_enrichment
+       ├─ pause_index
+       ├─ mRNA_contamination
+       └─ TSS_enrichment
 ```
 ### iii. mamba Environment ###
 You can configure a mamba environment named 'PRO-seq' using the following code, which includes the essential software for PRO-Seq analysis.
@@ -376,5 +376,10 @@ standard:main peak 1-1.8(0 <Log10 main peak < 0.26).
 
 standard:main peak 25-50 bp downstream of the TSS.
 
+### Singularity ###
 
+the singularity image docker_PRO_seq.tar is provided now. After decompression, you can run the above process. If you want to run fastp, here is a example:
 
+![](https://github.com/Haolab-BIG/PRO-seq/tree/main/Figure/singularity测试例子.png)
+
+Here, **/home/qian_l/PRO_seq** represents data path, and the following commands are the commands in the above process.
